@@ -1,0 +1,82 @@
+
+body {
+  background-color: Ivory;
+}
+
+.pedal {
+  position: absolute;
+  top: 300px;
+  right: 50px;
+  width: 80px;
+  height: 15px;
+  border-radius: 40px/ 11px ;
+  background-color: gold;
+  border: 2px solid ivory;
+}
+
+.pedal-1 {
+  transform: rotate(90deg);
+}
+.pedal-2 {
+  transform: rotate(45deg);
+}
+.pedal-3 {
+  transform: rotate(-45deg);
+}
+.pedal-4 {
+  transform: rotate(22.5deg);
+  background: orange;
+}
+.pedal-5 {
+  transform: rotate(-22.5deg);
+  background: orange;
+  
+}
+.pedal-6 {
+  transform: rotate(112.5deg);
+  background: orange;
+}
+.pedal-7 {
+  transform: rotate(-112.5deg);
+  background: orange;
+}
+.circle {
+  position: absolute;
+  top: 290px;
+  right: 70px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: sienna;
+}
+.innercircle {
+  position: absolute;
+  top: 300px;
+  right: 80px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #654321;
+  border: 3px solid #654321;
+}
+.stem{
+  position: absolute;
+  top: 300px;
+  right: 90px;
+  width:4px;
+  height: 106px;
+    border-radius: 40px;
+  background-color: green;
+  z-index: -1; 
+}
+
+
+.thanks {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  font-family: 'Sriracha', cursive;
+  font-size: 60px;
+  color: orange;
+ 
+}

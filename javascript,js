@@ -1,0 +1,22 @@
+var abrir_manual = document.querySelector(".c2");
+var abrir_esp = document.querySelector(".c1");
+var abrir_info = document.querySelector(".c3");
+
+abrir_manual.addEventListener("click", ir_pag_manual);
+abrir_esp.addEventListener("click", ir_pag_esp);
+abrir_info.addEventListener("click", ir_pag_info);
+
+function ir_pag_manual(){
+    console.log("abriu");
+    window.location.href = "manual.html";
+}
+
+function ir_pag_esp(){
+    console.log("abriu");
+    window.location.href = ".html";
+}
+
+function ir_pag_info(){
+    console.log("abriu");
+    window.location.href = ".html";
+}

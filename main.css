@@ -1,0 +1,439 @@
+
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin: 0;
+}
+
+.menu, .portal {
+	font-family: 'Stick No Bills', sans-serif;
+}
+
+header
+{
+	background: #06c258;
+}
+body div ul li
+{
+	color: #dddddd;
+	top: 50px ;
+	text-decoration: none;
+	position: absolute;
+   text-shadow: 2px 2px 5px #131313;
+}
+ul 
+{
+	list-style-type: none;
+}
+ div ul li a:hover{
+    color: #14cc60;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.menu
+{
+	position: absolute;
+	left: 750px;
+	top: 300px;
+	font-size: 90px;
+    color: #cccccc;
+	display: inline-block;
+	text-shadow: 4px 4px 10px #131313;
+}
+.portal 
+{
+	font-size: 25px;
+	color: #F9F9F9;
+	padding: 0 0 0 0;
+	display: inline-block;
+}
+.a 
+{
+	right: 1250px;
+}
+.b 
+{
+	right: 851px;
+}
+.c 
+{
+	right: 550px;
+}
+.informacao
+{
+	padding: 0px 0px 30px 0px;
+	background: #f0f0f0;
+}
+.imagens 
+{
+	background-image: url("camomilas2.jpg");
+	background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+	height: 750px;
+	weight: 100%;
+}
+.txt_info
+{
+	padding: 80px 0 80px 0;
+	text-align: center;
+	font-size: 20px;
+}
+.caminho_crescimento
+{
+	background-image: linear-gradient(120deg, #14cc60, #9ce62a);
+	background-color: #14cc60;
+	padding: 50px 0 1200px 0;
+}
+
+.acontecimento-1
+{
+	width: 500px ;
+	height: 300px;
+	border: solid 3px;
+	border-radius: 10%;
+	position: absolute;
+	left: 170px;
+	background-image: url("erro.png");
+   
+}
+.plantacao
+{
+	position: absolute;
+	left: 250px;
+	font-size: 15px;
+	top: 1548px;
+}
+.acontecimento-2
+{
+	width: 500px ;
+	height: 300px;
+	background-color: #f2f2f2;
+	border: solid 3px;
+	border-radius: 10%;
+	position: absolute;
+	right: 200px;
+	top: 1500px ;
+		background-image: url("erro.png");
+   
+
+}
+.sistema_ragacao
+{
+	position: absolute;
+	left: 1250px;
+	font-size: 15px;
+	top: 1802px;
+}
+.acontecimento-3
+{
+	width: 500px ;
+	height: 300px;
+	background-color: #f2f2f2;
+	border: solid 3px;
+	border-radius: 10%;
+	position: absolute;
+	left: 300px;
+	top: 1900px;
+		background-image: url("erro.png");
+}
+.composto
+{
+	position: absolute;
+	left: 370px;
+	font-size: 15px;
+	top: 2202px;
+}
+.footer
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.corpo-seta{
+	height: 10px;
+	width:530px ;
+	background-color: #232323;
+	border-radius:3px;
+	position: absolute;
+	top: 1300px;
+	left: 800px;
+}
+.virando-seta{
+	height: 70px;
+	width: 10px;
+	background-color: #232323;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 5px;
+	position: absolute;
+	top: 1300px;
+	left: 1328px;
+}
+.cabeca-seta{
+	width: 0; 
+	height: 0; 
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 30px solid #232323;
+	position: absolute;
+	left: 1303px;
+	top: 1368px;
+}
+
+
+.corpo-seta2{
+	height: 125px;
+	width: 10px ;
+	background-color: #232323;
+	border-radius:3px;
+	position: absolute;
+	top: 1975px;
+	right: 350px;
+}
+.virando-seta2{
+	height: 10px;
+	width: 420px;
+	background-color: #232323;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 5px;
+	position: absolute;
+	top: 2093px;
+	right: 350px;
+}
+.cabeca-seta2{
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-right: 30px solid #232323;
+	position: absolute;
+	right: 753px;
+	top: 2068px;
+}
+
+
+
+.pedal {
+  position: absolute;
+  top: 1500px;
+  right: 50px;
+  width: 80px;
+  height: 15px;
+  border-radius: 40px/ 11px ;
+  background-color: #eae9e9;
+  border: 2px solid ivory;
+}
+
+.pedal-1 {
+  transform: rotate(90deg);
+}
+.pedal-2 {
+  transform: rotate(45deg);
+}
+.pedal-3 {
+  transform: rotate(-45deg);
+}
+.pedal-4 {
+  transform: rotate(22.5deg);
+  background: #d4d4d3;
+}
+.pedal-5 {
+  transform: rotate(-22.5deg);
+  background: #d4d4d3;
+  
+}
+.pedal-6 {
+  transform: rotate(112.5deg);
+  background: #d4d4d3;
+}
+.pedal-7 {
+  transform: rotate(-112.5deg);
+  background: #d4d4d3;
+}
+.circle {
+  position: absolute;
+  top: 1490px;
+  right: 70px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fcc201;
+}
+.innercircle {
+  position: absolute;
+  top: 1500px;
+  right: 80px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.stem{
+  position: absolute;
+  top: 1500px;
+  right: 90px;
+  width:4px;
+  height: 106px;
+    border-radius: 40px;
+  background-color: #909090;
+  z-index: -1; 
+}
+
+.pedal2 {
+  position: absolute;
+  top: 1800px;
+  right: 1760px;
+  width: 80px;
+  height: 15px;
+  border-radius: 40px/ 11px ;
+  background-color: #eae9e9;
+  border: 2px solid ivory;
+}
+
+.pedal-11 {
+  transform: rotate(90deg);
+}
+.pedal-22 {
+  transform: rotate(45deg);
+}
+.pedal-33 {
+  transform: rotate(-45deg);
+}
+.pedal-44 {
+  transform: rotate(22.5deg);
+  background: #d4d4d3;
+}
+.pedal-55 {
+  transform: rotate(-22.5deg);
+  background: #d4d4d3;
+  
+}
+.pedal-66 {
+  transform: rotate(112.5deg);
+  background: #d4d4d3;
+}
+.pedal-77 {
+  transform: rotate(-112.5deg);
+  background: #d4d4d3;
+}
+.circle2 {
+  position: absolute;
+  top: 1790px;
+  right: 1780px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fcc201;
+}
+.innercircle2 {
+  position: absolute;
+  top: 1800px;
+  right: 1790px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.stem2{
+  position: absolute;
+  top: 1800px;
+  right: 1800px;
+  width:4px;
+  height: 106px;
+    border-radius: 40px;
+  background-color: gold;
+  z-index: -1; 
+}
+
+.pedal3 {
+  position: absolute;
+  top: 1950px;
+  right: 760px;
+  width: 80px;
+  height: 15px;
+  border-radius: 40px/ 11px ;
+  background-color: #eae9e9;
+  border: 2px solid ivory;
+}
+
+.pedal-12 {
+  transform: rotate(90deg);
+}
+.pedal-23 {
+  transform: rotate(45deg);
+}
+.pedal-32 {
+  transform: rotate(-45deg);
+}
+.pedal-42 {
+  transform: rotate(22.5deg);
+  background: #d4d4d3;
+}
+.pedal-52 {
+  transform: rotate(-22.5deg);
+  background: #d4d4d3;
+  
+}
+.pedal-62 {
+  transform: rotate(112.5deg);
+  background: #d4d4d3;
+}
+.pedal-72 {
+  transform: rotate(-112.5deg);
+  background: #d4d4d3;
+}
+.circle3 {
+  position: absolute;
+  top: 1940px;
+  right: 780px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fcc201;
+}
+.innercircle3 {
+  position: absolute;
+  top: 1950px;
+  right: 790px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.stem3{
+  position: absolute;
+  top: 1950px;
+  right: 800px;
+  width:4px;
+  height: 106px;
+    border-radius: 40px;
+  background-color: gold;
+  z-index: -1; 
+}
