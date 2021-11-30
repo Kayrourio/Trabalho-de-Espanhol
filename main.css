@@ -88,7 +88,7 @@ ul
 {
 	background-image: linear-gradient(120deg, #14cc60, #9ce62a);
 	background-color: #14cc60;
-	padding: 50px 0 1200px 0;
+	padding: 50px 0 1600px 0;
 }
 
 .acontecimento-1
@@ -148,6 +148,23 @@ ul
 	left: 370px;
 	font-size: 15px;
 	top: 2202px;
+}
+.acontecimento-4{
+	width: 500px ;
+	height: 300px;
+	background-color: #f2f2f2;
+	border: solid 3px;
+	border-radius: 10%;
+	position: absolute;
+	right: 200px;
+	top: 2300px ;
+		background-image: url("erro.png");
+}
+.dxabonito{
+	position: absolute;
+	right: 130px;
+	font-size: 15px;
+	top: 2600px;
 }
 .footer
 {
@@ -238,6 +255,37 @@ ul
 	top: 2068px;
 }
 
+
+.corpo-seta3{
+	height: 125px;
+	width: 10px ;
+	background-color: #232323;
+	border-radius:3px;
+	position: absolute;
+	top: 2335px;
+	left: 500px;
+}
+.virando-seta3{
+	height: 10px;
+	width: 550px;
+	background-color: #232323;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 5px;
+	position: absolute;
+	top: 2450px;
+	left: 500px;
+}
+.cabeca-seta3{
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid #232323;
+	position: absolute;
+	right: 830px;
+	top: 2423px;
+}
 
 
 .pedal {
